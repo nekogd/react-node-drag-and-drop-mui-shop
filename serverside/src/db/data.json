@@ -110,5 +110,20 @@
       ],
       "id": 8
     }
+  ],
+  "orders": [
+    {
+      "userId": 8,
+      "products": [
+        {
+          "type": "product",
+          "name": "Paint Brush",
+          "description": "Paint Brush for good price",
+          "price": 100,
+          "uuid": "e8cdc85-37d8-deb7-2e8f-b775246378a8"
+        }
+      ],
+      "id": "63627d8f-913e-42fd-b78e-bde217b31621"
+    }
   ]
 }
