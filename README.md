@@ -5,7 +5,7 @@ Launch both `clientside` and `serverside`.
 
 ## 1. Client Side: Standard CRA App
 
-1. Navigate to folder `clientside` (same as this README.md)
+1. Navigate to folder `clientside`
 2. `yarn install` or `npm install`. I recommend `yarn` because `yarn.lock` file is on repo.
 3. `yarn start`
 4. Navigate to `localhost:3000` in your browser
