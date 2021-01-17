@@ -124,6 +124,39 @@
         }
       ],
       "id": "63627d8f-913e-42fd-b78e-bde217b31621"
+    },
+    {
+      "userId": 8,
+      "products": [
+        {
+          "type": "product",
+          "name": "Hard wood floor",
+          "description": "Oak wood flooring for good price",
+          "price": 100,
+          "uuid": "21483e-2ae1-a0-78d4-6be5225206a"
+        }
+      ],
+      "id": "f2a96b04-b386-4a56-848d-0beab2d4a5c2"
+    },
+    {
+      "userId": 8,
+      "products": [
+        {
+          "type": "product",
+          "name": "Nails",
+          "description": " This is a very nice Nails",
+          "price": 100,
+          "uuid": "52cc2ae-8de-031d-a04-554b5c144100"
+        },
+        {
+          "type": "product",
+          "name": "Sand paper",
+          "description": " This is a very nice Sand Paper, High grit.",
+          "price": 100,
+          "uuid": "03f6d46-c5d2-4fa8-eaf-26a13abd2a2"
+        }
+      ],
+      "id": "fc07a7ff-fc22-4e4b-b7d2-733e20078dbd"
     }
   ]
 }
