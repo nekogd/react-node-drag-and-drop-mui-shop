@@ -35,6 +35,12 @@
       "description": " This is a very nice Sand Paper, High grit.",
       "price": 100,
       "id": 7
+    },
+    {
+      "name": "New product",
+      "description": "New product desc",
+      "price": 80,
+      "id": 8
     }
   ],
   "users": [

@@ -5,7 +5,7 @@ import { HTML5Backend } from "react-dnd-html5-backend";
 import { AppHeader } from "components/appHeader/AppHeader";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import ProtectedRoute from "pages/ProtectedRoute";
-import { Admin } from "pages/admin/Admin";
+import Admin from "pages/admin/Admin";
 import { ThemeProvider } from "@material-ui/core/styles";
 import { theme } from "styles";
 import { Grid } from "@material-ui/core";
@@ -14,6 +14,8 @@ import "react-toastify/dist/ReactToastify.css";
 import { ROUTES } from "static/routes";
 
 function App() {
+  // of course this comes somehow from backend on production
+  // idea is to demonstate protected route
   const [isAuthenticated, setIsAuthenticated] = useState(false);
 
   const handleLoginChange = (event) => {

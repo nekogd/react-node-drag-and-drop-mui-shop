@@ -51,7 +51,7 @@ export const Cart = ({ isOver, dropRef, hasMadeOrder, cart, cartTotal }) => {
 Cart.propTypes = {
   isOver: propTypes.bool,
   dropRef: propTypes.oneOfType([
-    // Either a function
+    // ref is a bit tricky
     propTypes.func,
     propTypes.shape({ current: propTypes.instanceOf(Element) }),
   ]),

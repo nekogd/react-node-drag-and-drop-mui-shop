@@ -96,7 +96,7 @@ export const Shop = () => {
           />
         </DialogContent>
       </Dialog>
-
+      {/* TODO: to show loading spinners which are nice*/}
       {isProductsLoading && <LoadingSpinner />}
       {isMakingOrder && <LoadingSpinner />}
     </Grid>

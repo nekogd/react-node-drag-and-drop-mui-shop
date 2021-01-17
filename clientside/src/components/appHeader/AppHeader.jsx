@@ -13,6 +13,7 @@ import {
 
 import { useAppHeaderStyles } from "./styles";
 import { ROUTES } from "static/routes";
+import propTypes from "prop-types";
 
 export const AppHeader = ({ isAuthenticated, handleLoginChange }) => {
   const classes = useAppHeaderStyles();
@@ -49,4 +50,9 @@ export const AppHeader = ({ isAuthenticated, handleLoginChange }) => {
       </AppBar>
     </Grid>
   );
+};
+
+AppHeader.propTypes = {
+  isAuthenticated: propTypes.bool,
+  handleLoginChange: propTypes.func,
 };
